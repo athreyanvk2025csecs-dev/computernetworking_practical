@@ -1,0 +1,34 @@
+PS C:\Users\REC\Desktop\CN lab> python ftp_scanner.py
+230-Welcome to mirror.as35701.net.
+
+ The server is located in Brussels, Belgium.
+
+ Server connected with gigabit ethernet to the internet.
+
+ The server maintains software archive accessible via ftp, http, https and rsync.
+
+ ftp.be.debian.org is an alias for this host, but https will not work with that
+ alias. If you want to use https use mirror.as35701.net.
+
+ Contact: mirror-admin at as35701.net
+
+230 Anonymous access granted, restrictions apply
+
+[*] ftp.be.debian.org FTP Anonymous Login Succeeded.
+220 ProFTPD Server (mirror.as35701.net) [::ffff:195.234.45.114]
+drwxr-xr-x   9 ftp      ftp          4096 Aug 25 02:55 debian
+drwxr-xr-x   5 ftp      ftp           105 Jul 28 10:52 debian-cd
+drwxr-xr-x   7 ftp      ftp          4096 Aug 25 00:32 debian-security
+drwxr-xr-x   5 ftp      ftp          4096 Oct 13  2006 ftp.irc.org
+-rw-r--r--   1 ftp      ftp           717 Apr 15  2025 HEADER.html
+drwxr-xr-x   5 ftp      ftp          4096 Aug 25 03:24 mint
+drwxr-xr-x   6 ftp      ftp            60 Apr 27 10:28 mint-iso
+lrwxrwxrwx   1 ftp      ftp            33 Apr 29  2021 pub -> /var/www/html/www.kernel.org/pub/
+drwxr-xr-x   7 ftp      ftp          4096 Aug 25 00:41 ubuntu
+drwxr-xr-x  31 ftp      ftp          4096 Aug 24 18:12 ubuntu-cdimage
+drwxr-xr-x  31 ftp      ftp          4096 Aug 24 19:18 ubuntu-cloudimages
+drwxr-xr-x   7 ftp      ftp          4096 Aug 25 01:27 ubuntu-ports
+drwxr-xr-x  16 ftp      ftp          4096 Aug 25 01:19 ubuntu-releases
+drwxr-xr-x  26 ftp      ftp           315 Aug 24 23:01 video.fosdem.org
+-rw-r--r--   1 ftp      ftp           390 Jul  9  2021 welcome.msg
+drwxr-xr-x   4 ftp      ftp          4096 Jun 14  2023 www.kernel.org
